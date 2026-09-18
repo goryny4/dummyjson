@@ -1,0 +1,19 @@
+{
+  "$schema": "https://sharedb.org/v1/dataset.schema.json",
+  "name": "products",
+  "version": "0.1.0",
+  "resources": [
+    {
+      "url": "./products.table.json",
+      "name": "products"
+    },
+    {
+      "url": "./posts.table.json",
+      "name": "posts"
+    },
+    {
+      "url": "./stock.table.json",
+      "name": "stock"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "products",
+  "kind": "table",
+  "title": "Products",
+  "source": {
+    "type": "url",
+    "format": "json",
+    "url": "https://dummyjson.com/products",
+    "arrayPath": "products"
+  },
+  "fields": [
+    {
+      "name": "id",
+      "type": "integer",
+      "primaryKey": true
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "number"
+    },
+    {
+      "name": "discountPercentage",
+      "type": "number"
+    },
+    {
+      "name": "rating",
+      "type": "number"
+    },
+    {
+      "name": "stock",
+      "type": "integer"
+    },
+    {
+      "name": "tags",
+      "type": "array"
+    },
+    {
+      "name": "brand",
+      "type": "string"
+    },
+    {
+      "name": "sku",
+      "type": "string"
+    },
+    {
+      "name": "weight",
+      "type": "integer"
+    },
+    {
+      "name": "dimensions",
+      "type": "json"
+    },
+    {
+      "name": "warrantyInformation",
+      "type": "string"
+    },
+    {
+      "name": "shippingInformation",
+      "type": "string"
+    },
+    {
+      "name": "availabilityStatus",
+      "type": "string"
+    },
+    {
+      "name": "reviews",
+      "type": "array"
+    },
+    {
+      "name": "returnPolicy",
+      "type": "string"
+    },
+    {
+      "name": "minimumOrderQuantity",
+      "type": "integer"
+    },
+    {
+      "name": "meta",
+      "type": "json"
+    },
+    {
+      "name": "images",
+      "type": "array"
+    },
+    {
+      "name": "thumbnail",
+      "type": "string"
+    }
+  ]
+}

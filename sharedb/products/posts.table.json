@@ -1,0 +1,43 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "posts",
+  "kind": "table",
+  "title": "Posts",
+  "source": {
+    "type": "url",
+    "format": "json",
+    "url": "https://dummyjson.com/posts",
+    "arrayPath": "posts"
+  },
+  "fields": [
+    {
+      "name": "id",
+      "type": "integer",
+      "primaryKey": true
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "body",
+      "type": "string"
+    },
+    {
+      "name": "tags",
+      "type": "array"
+    },
+    {
+      "name": "reactions",
+      "type": "json"
+    },
+    {
+      "name": "views",
+      "type": "integer"
+    },
+    {
+      "name": "userId",
+      "type": "integer"
+    }
+  ]
+}
