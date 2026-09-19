@@ -1,0 +1,30 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "todos",
+  "kind": "table",
+  "title": "Todos",
+  "source": {
+    "type": "api",
+    "format": "json",
+    "url": "https://jsonplaceholder.typicode.com/todos"
+  },
+  "fields": [
+    {
+      "name": "userId",
+      "type": "integer"
+    },
+    {
+      "name": "id",
+      "type": "integer",
+      "primaryKey": true
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "completed",
+      "type": "boolean"
+    }
+  ]
+}

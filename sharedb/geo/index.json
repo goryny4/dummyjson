@@ -1,0 +1,19 @@
+{
+  "$schema": "https://sharedb.org/v1/dataset.schema.json",
+  "name": "geo",
+  "version": "0.1.0",
+  "resources": [
+    {
+      "url": "./countries.table.json",
+      "name": "countries"
+    },
+    {
+      "url": "./cities.table.json",
+      "name": "cities"
+    },
+    {
+      "url": "./currencies.table.json",
+      "name": "currencies"
+    }
+  ]
+}

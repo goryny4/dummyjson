@@ -4,10 +4,15 @@
   "kind": "table",
   "title": "Products",
   "source": {
-    "type": "url",
+    "type": "api",
     "format": "json",
     "url": "https://dummyjson.com/products",
-    "arrayPath": "products"
+    "arrayPath": "products",
+    "pagination": {
+      "type": "offset",
+      "offsetParam": "skip",
+      "totalPath": "total"
+    }
   },
   "fields": [
     {

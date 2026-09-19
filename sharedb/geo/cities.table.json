@@ -1,0 +1,38 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "cities",
+  "kind": "table",
+  "title": "Cities",
+  "source": {
+    "type": "file",
+    "format": "json",
+    "url": "./data/cities.json"
+  },
+  "fields": [
+    {
+      "name": "id",
+      "type": "integer",
+      "primaryKey": true
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "country_code",
+      "type": "string"
+    },
+    {
+      "name": "population",
+      "type": "integer"
+    },
+    {
+      "name": "latitude",
+      "type": "number"
+    },
+    {
+      "name": "longitude",
+      "type": "number"
+    }
+  ]
+}

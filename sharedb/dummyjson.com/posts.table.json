@@ -4,10 +4,15 @@
   "kind": "table",
   "title": "Posts",
   "source": {
-    "type": "url",
+    "type": "api",
     "format": "json",
     "url": "https://dummyjson.com/posts",
-    "arrayPath": "posts"
+    "arrayPath": "posts",
+    "pagination": {
+      "type": "offset",
+      "offsetParam": "skip",
+      "totalPath": "total"
+    }
   },
   "fields": [
     {

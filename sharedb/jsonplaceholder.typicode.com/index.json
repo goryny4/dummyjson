@@ -1,0 +1,11 @@
+{
+  "$schema": "https://sharedb.org/v1/dataset.schema.json",
+  "name": "jsonplaceholder.typicode.com",
+  "version": "0.1.0",
+  "resources": [
+    {
+      "url": "./todos.table.json",
+      "name": "todos"
+    }
+  ]
+}

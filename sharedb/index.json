@@ -1,0 +1,21 @@
+{
+  "$schema": "https://sharedb.org/v1/catalog.schema.json",
+  "name": "sharedb",
+  "datasets": [
+    {
+      "url": "./dummyjson.com/index.json",
+      "name": "dummyjson.com",
+      "resourcesCount": 2
+    },
+    {
+      "url": "./geo/index.json",
+      "name": "geo",
+      "resourcesCount": 3
+    },
+    {
+      "url": "./jsonplaceholder.typicode.com/index.json",
+      "name": "jsonplaceholder.typicode.com",
+      "resourcesCount": 1
+    }
+  ]
+}

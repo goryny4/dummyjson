@@ -1,6 +1,6 @@
 {
   "$schema": "https://sharedb.org/v1/dataset.schema.json",
-  "name": "products",
+  "name": "dummyjson.com",
   "version": "0.1.0",
   "resources": [
     {
@@ -10,10 +10,6 @@
     {
       "url": "./posts.table.json",
       "name": "posts"
-    },
-    {
-      "url": "./stock.table.json",
-      "name": "stock"
     }
   ]
 }

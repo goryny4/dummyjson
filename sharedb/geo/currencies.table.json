@@ -1,0 +1,29 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "currencies",
+  "kind": "table",
+  "title": "Currencies",
+  "source": {
+    "type": "file",
+    "format": "json",
+    "url": "./data/currencies.json"
+  },
+  "fields": [
+    {
+      "name": "code",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "symbol",
+      "type": "string"
+    },
+    {
+      "name": "minor_unit",
+      "type": "integer"
+    }
+  ]
+}

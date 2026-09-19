@@ -1,0 +1,21 @@
+[
+  { "code": "USD", "name": "United States Dollar", "symbol": "$", "minor_unit": 2 },
+  { "code": "CAD", "name": "Canadian Dollar", "symbol": "$", "minor_unit": 2 },
+  { "code": "MXN", "name": "Mexican Peso", "symbol": "$", "minor_unit": 2 },
+  { "code": "BRL", "name": "Brazilian Real", "symbol": "R$", "minor_unit": 2 },
+  { "code": "ARS", "name": "Argentine Peso", "symbol": "$", "minor_unit": 2 },
+  { "code": "GBP", "name": "British Pound Sterling", "symbol": "£", "minor_unit": 2 },
+  { "code": "EUR", "name": "Euro", "symbol": "€", "minor_unit": 2 },
+  { "code": "RUB", "name": "Russian Ruble", "symbol": "₽", "minor_unit": 2 },
+  { "code": "CNY", "name": "Chinese Yuan", "symbol": "¥", "minor_unit": 2 },
+  { "code": "JPY", "name": "Japanese Yen", "symbol": "¥", "minor_unit": 0 },
+  { "code": "INR", "name": "Indian Rupee", "symbol": "₹", "minor_unit": 2 },
+  { "code": "KRW", "name": "South Korean Won", "symbol": "₩", "minor_unit": 0 },
+  { "code": "IDR", "name": "Indonesian Rupiah", "symbol": "Rp", "minor_unit": 2 },
+  { "code": "AUD", "name": "Australian Dollar", "symbol": "$", "minor_unit": 2 },
+  { "code": "NZD", "name": "New Zealand Dollar", "symbol": "$", "minor_unit": 2 },
+  { "code": "ZAR", "name": "South African Rand", "symbol": "R", "minor_unit": 2 },
+  { "code": "EGP", "name": "Egyptian Pound", "symbol": "£", "minor_unit": 2 },
+  { "code": "NGN", "name": "Nigerian Naira", "symbol": "₦", "minor_unit": 2 },
+  { "code": "KES", "name": "Kenyan Shilling", "symbol": "KSh", "minor_unit": 2 }
+]

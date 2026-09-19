@@ -1,0 +1,41 @@
+{
+  "$schema": "https://sharedb.org/v1/resource.schema.json",
+  "name": "countries",
+  "kind": "table",
+  "title": "Countries",
+  "source": {
+    "type": "file",
+    "format": "json",
+    "url": "./data/countries.json"
+  },
+  "fields": [
+    {
+      "name": "code",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "capital",
+      "type": "string"
+    },
+    {
+      "name": "continent",
+      "type": "string"
+    },
+    {
+      "name": "population",
+      "type": "integer"
+    },
+    {
+      "name": "area_km2",
+      "type": "integer"
+    },
+    {
+      "name": "currency_code",
+      "type": "string"
+    }
+  ]
+}
